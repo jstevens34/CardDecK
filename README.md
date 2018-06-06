@@ -2,7 +2,7 @@
 Model of Deck of Cards
 
 ##GitHub essentials
-###Suggested approad is to clone this repo into $HOME/workspace as shown below:
+###Suggested approach is to clone this repo into $HOME/workspace as shown below:
 ```bash
 mkdir -p $HOME/workspace
 cd $HOME/workspace

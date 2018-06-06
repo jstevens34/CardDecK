@@ -17,16 +17,6 @@ public class Dealer {
     Dealer(Deck deckOfCards){
         this.deckOfCards = deckOfCards;
     }
-    public static void main(String[] args) {
-        Dealer spades = new Dealer(new Deck());
-
-        System.out.println(spades.deckOfCards);
-        spades.deckOfCards.shuffle();
-        System.out.println(spades.deckOfCards);
-
-        System.out.println(spades.deal());
-        System.out.println(spades.deal(5));
-    }
 
     /**
      * Deal card at the top.
@@ -53,6 +43,10 @@ public class Dealer {
             }
             return Optional.of(hand);
         }
+    }
+
+    public Deck getDeckOfCards() {
+        return deckOfCards;
     }
 
 }
