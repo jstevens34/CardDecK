@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Stack;
 
 /**
- *
+ * Container for all card in Deck 
  *
  */
 public class Deck {

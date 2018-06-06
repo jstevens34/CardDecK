@@ -22,23 +22,10 @@ public class Dealer {
 
         System.out.println(spades.deckOfCards);
         spades.deckOfCards.shuffle();
-        spades.deckOfCards.shuffle();
         System.out.println(spades.deckOfCards);
 
-        int i = 47;
-        while (i > 0)
-        {
-            //System.out.printf("Card delt: %s\n", spades.deal());
-            spades.deal();
-            i--;
-        }
-
-        System.out.println(spades.deckOfCards.getCards().size());
         System.out.println(spades.deal());
-        System.out.println(spades.deckOfCards.getCards().size());
         System.out.println(spades.deal(5));
-
-
     }
 
     /**
