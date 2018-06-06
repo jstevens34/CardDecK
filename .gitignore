@@ -1,0 +1,9 @@
+.idea/
+build/
+out/
+*.class
+.gradle/
+
+!gradlew
+!gradle.bat
+!gradle/wrapper/
