@@ -1,8 +1,8 @@
-#Joe's Card Deck
+# Joe's Card Deck
 Model of Deck of Cards
 
-##GitHub essentials
-###Suggested approach is to clone this repo into $HOME/workspace as shown below:
+## GitHub essentials
+### Suggested approach is to clone this repo into $HOME/workspace as shown below:
 ```bash
 mkdir -p $HOME/workspace
 cd $HOME/workspace
