@@ -48,7 +48,7 @@ public class Dealer {
            return Optional.empty();
         } else {
             List<Card> hand = new ArrayList<>();
-            for (int i = 0; i<= numberOfCards; i++) {
+            for (int i = 0; i< numberOfCards; i++) {
                hand.add(this.deckOfCards.getCards().pop());
             }
             return Optional.of(hand);
